@@ -14,7 +14,14 @@ Gris de fondo: #f1f1f1
 
 .root {
   --black: #000000;
+  --verde-claro: #14d9c4;
+  --verde-oscuro: #099d8d;
+  --blanco: #ffffff;
+  --gris-oscuro: #54585a;
+  --gris-claro: #b8b8b9;
+  --gris-fondo: #f1f1f1;
 }
+
 .contenedor {
   position: relative;
   display: inline-block;
@@ -29,12 +36,12 @@ Gris de fondo: #f1f1f1
   font-family: "Open Sans Condensed", sans-serif;
   color: #000000;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--blanco);
 }
 .titulo_equipo {
   font-size: 24px;
   font-family: "Rubik", sans-serif;
-  color: #099d8d;
+  color: var(--verde-oscuro);
   font-weight: bold;
   text-align: center;
 }
@@ -42,7 +49,7 @@ Gris de fondo: #f1f1f1
 .copyright {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  color: #b8b8b9;
+  color: var(--gris-claro);
   text-align: center;
 }
 
