@@ -37,3 +37,10 @@ Gris de fondo: #f1f1f1
   font-weight: bold;
   text-align: center;
 }
+
+.copyright {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #b8b8b9;
+  text-align: center;
+}
