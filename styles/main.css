@@ -12,7 +12,7 @@ Gris de fondo: #f1f1f1
 
 */
 
-.root {
+:root {
   --black: #000000;
   --verde-claro: #14d9c4;
   --verde-oscuro: #099d8d;
@@ -20,6 +20,10 @@ Gris de fondo: #f1f1f1
   --gris-oscuro: #54585a;
   --gris-claro: #b8b8b9;
   --gris-fondo: #f1f1f1;
+}
+
+a:link {
+  text-decoration: none; /*a: link: al poner esto todos los enlaces dejan de tener la linea de subrayado, a:visited no cambia el color del enlace al pulsarlo */
 }
 
 .contenedor {
@@ -34,7 +38,7 @@ Gris de fondo: #f1f1f1
 .lema {
   font-size: 18px;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #000000;
+  color: var(--black);
   font-weight: bold;
   background-color: var(--blanco);
 }
@@ -46,6 +50,15 @@ Gris de fondo: #f1f1f1
   text-align: center;
 }
 
+.footer {
+  border: solid 1px var(--gris-claro);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
 .copyright {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -54,6 +67,22 @@ Gris de fondo: #f1f1f1
 }
 
 .menu_bottom {
-  border: black solid 1px;
+  border: solid red 1px;
   box-sizing: border-box;
+}
+
+.item_menu_bottom {
+  color: var(--gris-claro);
+  opacity: 0, 75;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.item-logo-adalab {
+  border: 1px solid red;
+  display: flex;
+  border-bottom: 45px;
 }
