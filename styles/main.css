@@ -9,7 +9,6 @@ Negro: #000000
 Gris oscuro: #54585a
 Gris claro: #b8b8b9
 Gris de fondo: #f1f1f1
-
 */
 
 :root {
@@ -42,12 +41,60 @@ a:link {
   font-weight: bold;
   background-color: var(--blanco);
 }
+.team5 {
+  padding: 30px 15px 15px;
+}
+.contenedor-cuadrado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: var(--blanco);
+  position: absolute;
+  margin-top: -15px;
+}
+
 .titulo_equipo {
   font-size: 24px;
+  line-height: 1.88;
+  font-family: "Rubik", sans-serif;
+  color: var(--verde-claro);
+  font-weight: bold;
+  text-align: center;
+}
+
+.article1,
+.article2,
+.article3 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  color: var(--gris-oscuro);
+  text-align: center;
+  margin: 15px;
+  position: relative;
+}
+article.article2 {
+  margin-bottom: 35px;
+}
+
+.dafo {
+  padding: 30px 15px;
+  background-color: var(--gris-fondo);
+}
+.fortalezas,
+.debilidades {
+  font-size: 22px;
   font-family: "Rubik", sans-serif;
   color: var(--verde-oscuro);
   font-weight: bold;
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .footer {
