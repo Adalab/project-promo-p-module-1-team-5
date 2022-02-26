@@ -25,6 +25,7 @@ a:link {
   text-decoration: none; /*a: link: al poner esto todos los enlaces dejan de tener la linea de subrayado, a:visited no cambia el color del enlace al pulsarlo */
 }
 
+/* Header */
 .name_equipo {
   background-color: #099d8d;
   padding: 20px;
@@ -70,6 +71,8 @@ a:link {
   background-color: var(--blanco);
   border: solid fuchsia 1px;
 }
+
+/*Main, parte uno */
 .team5 {
   padding: 30px 15px 15px;
 }
@@ -115,6 +118,7 @@ article.article2 {
   padding: 30px 15px;
   background-color: var(--gris-fondo);
 }
+
 .fortalezas,
 .debilidades {
   font-size: 22px;
@@ -126,6 +130,59 @@ article.article2 {
   margin-bottom: 5px;
 }
 
+/*Main, parte 2
+************************************************************************************************************************* */
+.integrantes {
+  background-color: var(--blanco);
+  text-align: center;
+  padding: 30px 15px 45px 15px;
+  width: 100%;
+}
+
+.quienes_somos {
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  color: var(--verde-oscuro);
+  margin-bottom: 30px;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  border: solid 5px var(--gris-claro);
+  border-radius: 4px;
+}
+
+.nombre {
+  color: var(--gris-oscuro);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about {
+  color: var(--gris-oscuro);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.rrss {
+  /* list-style: none; */
+  font-size: 20px;
+  color: var(--verde-oscuro);
+  padding: 0px 10px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+/* ************************************************************************************************************************* */
+
+
+/*Footer*/
 .footer {
   border: solid 1px var(--gris-claro);
   background-color: #ffffff;
