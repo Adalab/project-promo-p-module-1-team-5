@@ -34,8 +34,8 @@ a:link {
 }
 
 .title {
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
 }
 .menu_top {
   background-color: #14d9c4;
@@ -44,17 +44,22 @@ a:link {
 .item_menu_top {
   list-style: none;
   display: inline;
-  /* margin: 100px; */
-  /* padding: 50px; */
-  font-size: 15px;
-  font-family: "Rubik", sans-serif;
+  margin: 100px;
+  padding: 50px;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
   color: #ffffff;
-  margin-right: 17px;
+  display: inline;
 }
-.escritorio {vae
+.bottom_menu_top {
+  color: #ffffff;
+}
+
+.escritorio {
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: 120%;
+  height: 100vh;
 }
 
 .contenedor {
@@ -64,12 +69,16 @@ a:link {
 }
 
 .lema {
-  font-size: 18px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: var(--black);
   font-weight: bold;
   background-color: var(--blanco);
+  position: absolute;
+  display: inline-block;
+  text-align: center;
   border: solid fuchsia 1px;
+  position: absolute;
 }
 
 /*Main, parte uno */
@@ -93,7 +102,7 @@ a:link {
 .titulo_equipo {
   font-size: 24px;
   line-height: 1.88;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--verde-claro);
   font-weight: bold;
   text-align: center;
@@ -104,7 +113,7 @@ a:link {
 .article3 {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--gris-oscuro);
   text-align: center;
   margin: 15px;
@@ -122,7 +131,7 @@ article.article2 {
 .fortalezas,
 .debilidades {
   font-size: 22px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--verde-oscuro);
   font-weight: bold;
   text-align: center;
@@ -141,7 +150,7 @@ article.article2 {
 
 .quienes_somos {
   font-size: 24px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: bold;
   color: var(--verde-oscuro);
   margin-bottom: 30px;
@@ -176,7 +185,7 @@ article.article2 {
   margin-bottom: 45px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .redes {
@@ -194,7 +203,6 @@ article.article2 {
 
 /* ************************************************************************************************************************* */
 
-
 /*Footer*/
 .footer {
   border: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo, hay como un borde gris*/
@@ -211,7 +219,7 @@ article.article2 {
 
 .copyright {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--gris-claro);
   text-align: center;
   box-sizing: border-box;
@@ -220,14 +228,12 @@ article.article2 {
 }
 
 .menu_bottom {
-    list-style: none;
+  list-style: none;
   box-sizing: border-box;
   display: block;
   text-align: center;
   align-items: center;
   margin-bottom: 30px;
-  
-  
 }
 
 /*esto esta bien no cambiar */
@@ -235,10 +241,9 @@ a.item_menu_bottom {
   color: var(--gris-oscuro);
   opacity: 0.75;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   line-height: 1.43;
-  
 }
 /*esto esta bien no cambiar */
 
@@ -246,5 +251,4 @@ a.item_menu_bottom {
   display: block;
   margin-bottom: 45px;
   align-items: center;
-
 }
