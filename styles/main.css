@@ -27,10 +27,14 @@ a:link {
 
 .name_equipo {
   background-color: #099d8d;
-  font-family: "Rubik", sans-serif;
   padding: 20px;
   color: #ffffff;
   text-align: center;
+}
+
+.title {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
 }
 .menu_top {
   background-color: #14d9c4;
@@ -39,10 +43,15 @@ a:link {
 .item_menu_top {
   list-style: none;
   display: inline;
-  margin: 100px;
-  padding: 50px;
-  font-size: 20px;
+  /* margin: 100px; */
+  /* padding: 50px; */
+  font-size: 15px;
   font-family: "Rubik", sans-serif;
+<<<<<<< HEAD
+=======
+  color: #ffffff;
+  margin-right: 17px;
+>>>>>>> 30e1a59bb57756fd249669e1f4141f6ae08a69db
 }
 .escritorio {
   background-size: cover;
