@@ -184,7 +184,7 @@ article.article2 {
 
 /*Footer*/
 .footer {
-  border: solid 1px var(--gris-claro);
+  border: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo*/
   background-color: #ffffff;
   box-sizing: border-box;
   display: flex;
@@ -193,6 +193,7 @@ article.article2 {
   justify-content: center;
   align-items: center;
   padding: 30px 74px;
+  width: 100%;
 }
 
 .copyright {
@@ -200,6 +201,8 @@ article.article2 {
   font-family: "Open Sans", sans-serif;
   color: var(--gris-claro);
   text-align: center;
+  box-sizing: border-box;
+  height: 20px;
   display: block;
   margin-bottom: 20px;
   border: solid 1px black;/*borrar*/
@@ -210,8 +213,11 @@ article.article2 {
   list-style: none;
   box-sizing: border-box;
   display: block;
+  text-align: center;
+  height: 60px;
 }
 
+/*esto esta bien no cambiar */
 a.item_menu_bottom {
   color: var(--gris-oscuro);
   opacity: 0.75;
@@ -219,10 +225,13 @@ a.item_menu_bottom {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
+/*esto esta bien no cambiar */
 
 .item-logo-adalab {
-  border: 1px solid rgb(47, 0, 255);/*borrar*/
-  display: flex;
-  border-bottom: 45px;
-  position: relative;
+  border: #000000 1px solid;
+  display: block;
+  margin-bottom: 45px;
+  margin-top: 30px;
+  width: 115.9px;
+  height: 45px; 
 }
