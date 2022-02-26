@@ -205,15 +205,14 @@ article.article2 {
 
 /*Footer*/
 .footer {
-  border: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo, hay como un borde gris*/
+  border-top:  solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo, hay como un borde gris*/
   background-color: var(--blanco);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  padding: 30px 74px;
+  padding: 30px 74px 45px 74px;
   width: 100%;
 }
 
@@ -251,4 +250,9 @@ a.item_menu_bottom {
   display: block;
   margin-bottom: 45px;
   align-items: center;
+<<<<<<< HEAD
+=======
+  /*width: 115.9px; no cambia tamaño?¿ lo mueve de lugar*/
+
+>>>>>>> 788c404d94760e7f0b5c352060db07590d760124
 }
