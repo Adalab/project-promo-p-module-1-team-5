@@ -184,7 +184,7 @@ article.article2 {
 
 /*Footer*/
 .footer {
-  border: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo*/
+  border: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo, hay como un borde gris*/
   background-color: #ffffff;
   box-sizing: border-box;
   display: flex;
@@ -202,7 +202,6 @@ article.article2 {
   color: var(--gris-claro);
   text-align: center;
   box-sizing: border-box;
-  height: 20px;
   display: block;
   margin-bottom: 20px;
   border: solid 1px black;/*borrar*/
@@ -214,7 +213,7 @@ article.article2 {
   box-sizing: border-box;
   display: block;
   text-align: center;
-  height: 60px;
+  
 }
 
 /*esto esta bien no cambiar */
@@ -223,7 +222,9 @@ a.item_menu_bottom {
   opacity: 0.75;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  font-weight: bold; 
+  line-height: 1.43;
+  
 }
 /*esto esta bien no cambiar */
 
