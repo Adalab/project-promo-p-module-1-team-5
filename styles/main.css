@@ -30,16 +30,14 @@ a:link {
   display: inline-block;
   text-align: center;
 }
-.escritorio {
-  width: 50%;
-  height: 50%;
-}
+
 .lema {
   font-size: 18px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: var(--black);
   font-weight: bold;
   background-color: var(--blanco);
+  border: solid fuchsia 1px;
 }
 .team5 {
   padding: 30px 15px 15px;
@@ -151,6 +149,7 @@ article.article2 {
   padding: 50px;
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
+  color: #ffffff;
 }
 .escritorio {
   width: 249%;
