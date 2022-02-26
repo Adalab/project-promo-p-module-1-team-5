@@ -226,8 +226,6 @@ article.article2 {
   text-align: center;
   align-items: center;
   margin-bottom: 30px;
-  
-  
 }
 
 /*esto esta bien no cambiar */
@@ -246,5 +244,6 @@ a.item_menu_bottom {
   display: block;
   margin-bottom: 45px;
   align-items: center;
+  /*width: 115.9px; no cambia tamaño?¿ lo mueve de lugar*/
 
 }
