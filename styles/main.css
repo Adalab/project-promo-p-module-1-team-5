@@ -43,7 +43,6 @@ a:link {
   padding: 50px;
   font-size: 20px;
   font-family: "Rubik", sans-serif;
-  color: #ffffff;
 }
 .escritorio {
   background-size: cover;
@@ -130,6 +129,7 @@ article.article2 {
   justify-content: center;
   align-items: center;
 }
+
 .copyright {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -139,21 +139,20 @@ article.article2 {
 
 .menu_bottom {
   border: solid red 1px;
+  list-style: none;
   box-sizing: border-box;
 }
 
-.item_menu_bottom {
-  color: var(--gris-claro);
-  opacity: 0, 75;
+a.item_menu_bottom {
+  color: var(--gris-oscuro);
+  opacity: 0.75;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  list-style: none;
-  outline: none;
   font-weight: bold;
 }
 
 .item-logo-adalab {
-  border: 1px solid red;
+  border: 1px solid rgb(47, 0, 255);
   display: flex;
   border-bottom: 45px;
 }
