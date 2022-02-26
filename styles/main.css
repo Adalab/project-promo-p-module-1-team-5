@@ -36,7 +36,7 @@ a:link {
 }
 .lema {
   font-size: 18px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: var(--black);
   font-weight: bold;
   background-color: var(--blanco);
@@ -61,7 +61,7 @@ a:link {
 .titulo_equipo {
   font-size: 24px;
   line-height: 1.88;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--verde-claro);
   font-weight: bold;
   text-align: center;
@@ -72,7 +72,7 @@ a:link {
 .article3 {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--gris-oscuro);
   text-align: center;
   margin: 15px;
@@ -89,7 +89,7 @@ article.article2 {
 .fortalezas,
 .debilidades {
   font-size: 22px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--verde-oscuro);
   font-weight: bold;
   text-align: center;
@@ -108,7 +108,7 @@ article.article2 {
 }
 .copyright {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--gris-claro);
   text-align: center;
 }
@@ -122,7 +122,7 @@ article.article2 {
   color: var(--gris-claro);
   opacity: 0, 75;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   list-style: none;
   outline: none;
   font-weight: bold;
@@ -132,4 +132,29 @@ article.article2 {
   border: 1px solid red;
   display: flex;
   border-bottom: 45px;
+}
+.name_equipo {
+  background-color: #099d8d;
+  font-family: 'Rubik', sans-serif;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.menu_top {
+  background-color: #14d9c4;
+  padding: 5px;
+}
+.item_menu_top {
+  list-style: none;
+  display: inline;
+  margin: 100px;
+  padding: 50px;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+.escritorio {
+  width: 249%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
