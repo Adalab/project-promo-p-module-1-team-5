@@ -198,7 +198,7 @@ article.article2 {
 /*Footer*/
 .footer {
   border: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo, hay como un borde gris*/
-  background-color: #ffffff;
+  background-color: var(--blanco);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -217,15 +217,16 @@ article.article2 {
   box-sizing: border-box;
   display: block;
   margin-bottom: 20px;
-  border: solid 1px black;/*borrar*/
 }
 
 .menu_bottom {
-  border: solid red 1px;/*borrar*/
-  list-style: none;
+    list-style: none;
   box-sizing: border-box;
   display: block;
   text-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  
   
 }
 
@@ -242,10 +243,8 @@ a.item_menu_bottom {
 /*esto esta bien no cambiar */
 
 .item-logo-adalab {
-  border: #000000 1px solid;
   display: block;
   margin-bottom: 45px;
-  margin-top: 30px;
-  width: 115.9px;
-  height: 45px; 
+  align-items: center;
+
 }
