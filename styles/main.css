@@ -179,6 +179,19 @@ article.article2 {
   align-items: center; 
 }
 
+.redes {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .fa-brands {
+  color: var(--verde-oscuro);
+  font-size: 20px;
+  padding: 0px 10px;
+} */
+
 /* ************************************************************************************************************************* */
 
 
