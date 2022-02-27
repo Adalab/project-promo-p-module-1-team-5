@@ -159,6 +159,13 @@ article.article2 {
 }
 
 /*Main parte, 2*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+/* He tenido que poner esto porque el DevTools me marcaba un padding extraño en el ul que no lograba encontrar en la hoja de reset */
+
 .integrantes {
   background-color: var(--blanco);
   text-align: center;
@@ -215,7 +222,6 @@ article.article2 {
   font-size: 20px;
   color: var(--verde-oscuro);
   padding: 0px 15px;
-  margin-bottom: 45px;
   display: inline-block;
 }
 
