@@ -35,21 +35,32 @@ a:link {
 
 .title {
   font-family: "Rubik", sans-serif;
-  font-size: 30px;
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 500;
 }
 .menu_top {
   background-color: var(--verde-claro);
-  padding: 5px;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.lista {
+  display: inline;
+  /* margin-left: 15px;
+  margin-right: 15px; */
 }
 .item_menu_top {
   list-style: none;
   display: inline;
-  margin: 100px;
-  padding: 50px;
-  font-size: 25px;
+  /* margin: 100px;
+  padding: 50px; */
+  font-size: 15px;
+  font-weight: 500;
   font-family: "Rubik", sans-serif;
   color: var(--blanco);
-  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .bottom_menu_top {
   color: var(--blanco);
@@ -58,29 +69,37 @@ a:link {
 .escritorio {
   background-size: cover;
   background-position: center;
-  width: 120%;
-  height: 100vh;
+  width: 100%;
+  /* width: 120%;
+  height: 100vh; */
 }
 
 .contenedor {
   position: relative;
   display: inline-block;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.lema {
-  font-size: 20px;
-  font-family: "Open Sans Condensed", sans-serif;
+.contenedor-lema {
   color: var(--black);
-  font-weight: bold;
   background-color: var(--blanco);
   position: absolute;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
-  border: solid fuchsia 1px;
-  position: absolute;
+  /* border: solid fuchsia 1px; */
+  /* display: flex; */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -40px;
+  padding: 10px;
+  /* position: absolute; */
 }
-
+.lema {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.39;
+  font-family: "Open Sans Condensed", sans-serif;
+}
 /*Main, parte uno */
 .team5 {
   padding: 30px 15px 15px;
