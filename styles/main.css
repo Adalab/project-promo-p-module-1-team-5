@@ -34,7 +34,7 @@ a:link {
 }
 
 .title {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 30px;
 }
 .menu_top {
@@ -47,7 +47,7 @@ a:link {
   margin: 100px;
   padding: 50px;
   font-size: 25px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--blanco);
   display: inline;
 }
@@ -70,7 +70,7 @@ a:link {
 
 .lema {
   font-size: 20px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: var(--black);
   font-weight: bold;
   background-color: var(--blanco);
@@ -102,7 +102,7 @@ a:link {
 .titulo_equipo {
   font-size: 24px;
   line-height: 1.88;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--verde-claro);
   font-weight: bold;
   text-align: center;
@@ -113,7 +113,7 @@ a:link {
 .article3 {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--gris-oscuro);
   text-align: center;
   margin: 15px;
@@ -131,7 +131,7 @@ article.article2 {
 .fortalezas,
 .debilidades {
   font-size: 22px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--verde-oscuro);
   font-weight: bold;
   text-align: center;
@@ -150,7 +150,7 @@ article.article2 {
 
 .quienes_somos {
   font-size: 24px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: bold;
   color: var(--verde-oscuro);
   margin-bottom: 30px;
@@ -165,14 +165,14 @@ article.article2 {
 
 .nombre {
   color: var(--gris-oscuro);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .about {
   color: var(--gris-oscuro);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -220,7 +220,7 @@ article.article2 {
 
 .copyright {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--gris-claro);
   text-align: center;
   box-sizing: border-box;
@@ -250,7 +250,7 @@ a.item_menu_bottom {
   color: var(--gris-oscuro);
   opacity: 0.75;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   line-height: 1.43;
 }
