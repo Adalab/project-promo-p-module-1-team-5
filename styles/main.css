@@ -139,8 +139,14 @@ article.article2 {
   margin-bottom: 5px;
 }
 
-/*Main, parte 2
-************************************************************************************************************************* */
+/*Main parte, 2*/
+.fa-brands {
+  color: var(--verde-oscuro);
+}
+
+.fa-envelope {
+  color: var(--verde-oscuro);
+}
 .integrantes {
   background-color: var(--blanco);
   text-align: center;
@@ -217,7 +223,7 @@ article.article2 {
 
 .punto {
   font-family: "Open Sans", sans-serif;
-  color: var(--black);
+  color: var(--verde-oscuro); /*he cambiado el color*/
   font-size: 16px;
   /* text-decoration: none; */
   display: inline-block;
