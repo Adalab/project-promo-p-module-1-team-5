@@ -159,13 +159,6 @@ article.article2 {
 }
 
 /*Main parte, 2*/
-.fa-brands {
-  color: var(--verde-oscuro);
-}
-
-.fa-envelope {
-  color: var(--verde-oscuro);
-}
 .integrantes {
   background-color: var(--blanco);
   text-align: center;
@@ -210,7 +203,7 @@ article.article2 {
 }
 
 .redes {
-  list-style: none;
+  list-style-type: none;
   margin-bottom: 45px;
   display: flex;
   justify-content: center;
@@ -218,34 +211,25 @@ article.article2 {
 }
 
 .rrss {
-  /* list-style: none; */
+  list-style-type: none;
   font-size: 20px;
   color: var(--verde-oscuro);
-  padding: 0px 10px;
+  padding: 0px 15px;
   margin-bottom: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 
-/* .fa-brands {
-  font-size: 20px;
-  color: var(--verde-oscuro);
-  padding: 0px 10px;
-} */
+.punto {
+  font-family: "Open Sans", sans-serif;
+  color: var(--gris-oscuro);
+  font-size: 16px;
+  display: inline-block;
+}
 
 .enlaces {
   color: var(--verde-oscuro);
   text-decoration: none;
   font-family: "FontAwesome5BrandsRegular";
-}
-
-.punto {
-  font-family: "Open Sans", sans-serif;
-  color: var(--verde-oscuro); /*he cambiado el color*/
-  font-size: 16px;
-  /* text-decoration: none; */
-  display: inline-block;
 }
 
 /* ************************************************************************************************************************* */
