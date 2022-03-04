@@ -1,1 +1,54 @@
+.container_footer {
+  /*container de todo lo incluido en el footer*/
 
+  border-top: solid 1px var(--gris-claro); /*esto no sé si hay que ponerlo, hay como un borde gris*/
+  background-color: var(--blanco);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0 45px 0;
+}
+
+.copyright {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--gris-claro);
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 30px;
+  margin-left: 74px;
+  margin-right: 74px;
+}
+
+.menu_bottom {
+  /*container de los enlaces*/
+
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px; /*aquí ya le estoy dando el margin-top30px del logo*/
+  margin-top: 20px;
+  /*el padding me lo separa de la caja madre, ver si para los margenes puedo usar padding?*/
+}
+
+a.item_menu_bottom {
+  /*esto esta bien no cambiar */
+  color: var(--gris-oscuro);
+  opacity: 0.75;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 1.43;
+}
+
+.logo_adalab {
+  display: block;
+  height: 45px;
+}

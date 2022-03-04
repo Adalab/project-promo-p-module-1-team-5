@@ -1,0 +1,54 @@
+.bio {
+  text-align: center;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  /* margin: 0 55px 15px; */
+  border: solid 5px var(--gris-claro);
+  border-radius: 4px;
+}
+
+.nombre {
+  color: var(--black);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.about {
+  color: var(--gris-oscuro);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 15px 30px;
+}
+
+.redes {
+  list-style-type: none;
+  margin: 35px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rrss {
+  list-style-type: none;
+  font-size: 20px;
+  color: var(--verde-oscuro);
+  padding: 0px 15px;
+  display: inline-block;
+}
+
+.punto {
+  font-family: "Open Sans", sans-serif;
+  color: var(--gris-oscuro);
+  font-size: 16px;
+  display: inline-block;
+}
+.enlaces {
+  color: var(--verde-oscuro);
+  text-decoration: none;
+  font-family: "FontAwesome5BrandsRegular";
+}
