@@ -24,7 +24,7 @@
   margin-right: 74px;
 }
 
-.menu_bottom {
+.listbottom {
   /*container de los enlaces*/
 
   list-style: none;
@@ -38,7 +38,7 @@
   /*el padding me lo separa de la caja madre, ver si para los margenes puedo usar padding?*/
 }
 
-a.item_menu_bottom {
+a.listbottom__item--link {
   /*esto esta bien no cambiar */
   color: var(--gris-oscuro);
   opacity: 0.75;
@@ -48,7 +48,7 @@ a.item_menu_bottom {
   line-height: 1.43;
 }
 
-.logo_adalab {
+.logo__adalab {
   display: block;
   height: 45px;
 }
