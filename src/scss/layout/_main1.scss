@@ -1,11 +1,11 @@
-.contenedor-section {
+.teamcontainer {
   margin: 0, 15px;
 }
-.team5 {
+.team {
   padding: 30px 15px 15px;
 }
 
-.titulo_equipo {
+.team__title {
   font-size: 24px;
   line-height: 1.88;
   font-family: "Rubik", sans-serif;
@@ -14,9 +14,9 @@
   text-align: center;
 }
 
-.article1,
-.article2,
-.article3 {
+.team__title--article1,
+.dafo__article2,
+.dafo__article3 {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
@@ -25,17 +25,17 @@
   margin: 15px;
   position: relative;
 }
-article.article2 {
+article.dafo__article2 {
   margin-bottom: 35px;
 }
 
-.contenedor-cuadrado {
+.squarecontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.cuadrado {
+.squarecontainer__square {
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
@@ -49,8 +49,8 @@ article.article2 {
   background-color: var(--gris-fondo);
 }
 
-.fortalezas,
-.debilidades {
+.dafo__article2--strengths,
+.dafo__article2--greatest {
   font-size: 22px;
   font-family: "Rubik", sans-serif;
   color: var(--verde-oscuro);
