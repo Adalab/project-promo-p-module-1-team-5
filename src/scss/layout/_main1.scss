@@ -2,7 +2,7 @@
   margin: 0, 15px;
 }
 .team {
-  padding: 30px 15px 15px;
+  padding: 30px 15px;
 }
 
 .team__title {
@@ -48,7 +48,6 @@ article.dafo__article2 {
   padding: 30px 15px;
   background-color: var(--gris-fondo);
 }
-
 .dafo__article2--strengths,
 .dafo__article2--greatest {
   font-size: 22px;
@@ -58,4 +57,46 @@ article.dafo__article2 {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .team {
+    padding: 45px 45px 30px 45px;
+  }
+  .dafo {
+    padding: 45px 45px 60px 45px;
+    display: flex;
+  }
+
+  .dafo__article2,
+  .dafo__article3 {
+    width: 50%;
+  }
+
+  .dafo__article2 {
+    padding-right: 15px;
+  }
+  .dafo__article3 {
+    padding-left: 15px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .team {
+    padding: 45px 300px 60px 300px;
+  }
+  .dafo {
+    padding: 45px 138px 60px 138px;
+    display: flex;
+  }
+
+  .dafo__article2,
+  .dafo__article3 {
+    width: 50%;
+  }
+  .dafo__article2 {
+    padding-right: 22.5px;
+  }
+  .dafo__article3 {
+    padding-left: 22.5px;
+  }
 }
