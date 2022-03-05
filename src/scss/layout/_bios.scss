@@ -38,7 +38,7 @@
   list-style-type: none;
   font-size: 20px;
   color: var(--verde-oscuro);
-  padding: 0px 15px;
+  padding: 0px 10px;
   display: inline-block;
 }
 
@@ -59,6 +59,7 @@
 @media all and (min-width: 768px) {
   .bio {
     display: flex;
+    flex-direction: row;
     margin: 0px 44px 44px 44px;
     /* Márgenes alrededor del contenedor, menos por arriba que ya nos lo da el QUIÉNES SOMOS */
   }
@@ -79,8 +80,8 @@
   .bio__name,
   .bio__about,
   .bio__social {
-    margin: 0;
-    /* Que estén lo más pegados posible al borde de su contenedor */
+    margin: 5px 0px;
+    /* Que estén lo más pegados posible al borde de su contenedor y tengan un pequeño margen igual entre ellos */
   }
 
   .bio__about {
