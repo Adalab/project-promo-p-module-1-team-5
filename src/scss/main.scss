@@ -17,21 +17,18 @@
   padding: 0;
   box-sizing: content-box;
 }
-/* He tenido que poner esto porque el DevTools me marcaba un padding extraño en el ul que no lograba encontrar en la hoja de reset */
+/* He tenido que poner este reset porque el DevTools me marcaba un padding extraño en el ul que no lograba encontrar en la hoja de reset */
 
 a:link {
   text-decoration: none;
-  /*
-    a: link: al poner esto todos los enlaces dejan de tener la linea de subrayado, a:visited no cambia el color del enlace al pulsarlo
-    */
+  /* a: link: al poner esto todos los enlaces dejan de tener la linea de subrayado, a:visited no cambia el color del enlace al pulsarlo */
 }
 
 /* Header */
 
-/*Main, parte uno */
+/* Main1 */
 
-/*Main parte, 2*/
-
+/* Main2*/
 .who {
   background-color: var(--blanco);
   text-align: center;
@@ -48,5 +45,7 @@ a:link {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
+
+/* Bios */
 
 /*Footer*/
