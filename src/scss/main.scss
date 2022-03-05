@@ -46,6 +46,22 @@ a:link {
   text-transform: uppercase;
 }
 
+.align__left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  padding-right: 25px;
+}
+
+.align__right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+  padding-left: 25px;
+}
+
 /* Bios */
 
 /*Footer*/

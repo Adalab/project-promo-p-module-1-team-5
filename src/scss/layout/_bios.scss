@@ -59,7 +59,7 @@
 @media all and (min-width: 768px) {
   .bio {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     margin: 0px 44px 44px 44px;
     /* Márgenes alrededor del contenedor, menos por arriba que ya nos lo da el QUIÉNES SOMOS */
   }
@@ -86,6 +86,7 @@
 
   .bio__about {
     text-align: left;
+    /* Esta alineación es la correcta de lectura, igual en los bloques de un lado y del otro, no cambia */
   }
 }
 
@@ -120,5 +121,6 @@
 
   .bio__about {
     text-align: left;
+    /* Esta alineación es la correcta de lectura, igual en los bloques de un lado y del otro, no cambia */
   }
 }
