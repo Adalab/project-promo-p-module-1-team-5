@@ -32,20 +32,21 @@ a:link {
 
 /*Main parte, 2*/
 
-.integrantes {
+.who {
   background-color: var(--blanco);
   text-align: center;
   width: 100%;
   margin-top: 30px;
 }
 
-.quienes_somos {
+.who__title {
   font-size: 24px;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
   color: var(--verde-oscuro);
   /* margin-top: 40px; */
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 /*Footer*/
