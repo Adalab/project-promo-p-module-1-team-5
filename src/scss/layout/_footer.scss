@@ -1,3 +1,7 @@
+.wrapper {
+  margin: 0px 15px;
+}
+
 .container__footer {
   /*container de todo lo incluido en el footer*/
   border-top: solid 1px var(--gris-claro);
@@ -15,7 +19,10 @@
   font-family: "Open Sans", sans-serif;
   color: var(--gris-claro);
   text-align: center;
-  margin: 30px 74px 20px 74px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  /*margin: 30px 74px 20px 74px;*/
 }
 
 .nav {
@@ -48,11 +55,13 @@
 }
 
 @media all and (min-width: 768px) {
-  .container__footer {
-    align-items: flex-start;
+  .wrapper {
+    margin: 0px 45px;
   }
+}
 
-  .nav {
-    transform: translate(200%);
+@media all and (min-width: 1200px) {
+  .wrapper {
+    margin: 0px 138px;
   }
 }
