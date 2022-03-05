@@ -54,13 +54,13 @@
   font-family: "FontAwesome5BrandsRegular";
 }
 
-/* Mediaqueries */
+/* Mediaqueries tablet */
 
 @media all and (min-width: 768px) {
   .bio {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0px 45px 45px 45px;
+    margin: 0px 44px 44px 44px;
+    /* Márgenes alrededor del contenedor, menos por arriba que ya nos lo da el QUIÉNES SOMOS */
   }
 
   .bio__photo {
@@ -72,11 +72,49 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 22px;
+    /* Margen entre la imagen y el contenedor de la biografía, la mitad que los márgenes exteriores */
+  }
 
   .bio__name,
   .bio__about,
   .bio__social {
     margin: 0;
+    /* Que estén lo más pegados posible al borde de su contenedor */
+  }
+
+  .bio__about {
+    text-align: left;
+  }
+}
+
+/* Mediaqueries desktop */
+
+@media all and (min-width: 1200px) {
+  .bio {
+    display: flex;
+    margin: 0px 138px 69px 138px;
+    /* Márgenes alrededor del contenedor, menos por arriba que ya nos lo da el QUIÉNES SOMOS, y por abajo la mitad para no separarlos demasiado */
+  }
+
+  .bio__photo {
+    width: 278px;
+    height: 278px;
+  }
+
+  .bio__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 22px;
+    /* Margen entre la imagen y el contenedor de la biografía, la misma que en tablet porque es la que mejor queda */
+  }
+
+  .bio__name,
+  .bio__about,
+  .bio__social {
+    margin: 0;
+    /* Que estén lo más pegados posible al borde de su contenedor */
   }
 
   .bio__about {
