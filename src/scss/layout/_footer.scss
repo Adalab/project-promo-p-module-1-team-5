@@ -1,3 +1,5 @@
+/*FOOTER*/
+
 .gray_line {
   border-top: solid 1px var(--gris-claro);
 }
@@ -35,8 +37,6 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
-
-  /*margin: 30px 74px 20px 74px;*/
 }
 
 .footer__nav--menu {
@@ -68,7 +68,7 @@
 }
 
 @media all and (min-width: 768px) {
-  /*falta espacios entre copyright y adalab, y entre los enlaces*/
+  /*falta espacios entre copyright y adalab, y entre los enlaces, márgenes de la caja se los he dado arriba*/
   .footer {
     display: grid;
     grid-template-columns: auto auto; /*1fr 1fr*/
