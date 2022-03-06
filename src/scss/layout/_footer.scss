@@ -3,10 +3,21 @@
 }
 
 .wrapper {
+  /*mobile first*/
   margin: 0px 15px;
+
+  /*TABLET*/
+  @media all and (min-width: 768px) {
+    margin: 0px 45px;
+  }
+
+  /*DESKTOP*/
+  @media all and (min-width: 1200px) {
+    margin: 0px 138px;
+  }
 }
 
-.container__footer {
+.footer {
   /*container de todo lo incluido en el footer*/
   background-color: var(--blanco);
   box-sizing: border-box;
@@ -17,7 +28,7 @@
   width: 100%;
 }
 
-.copyright {
+.footer__copyright {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: var(--gris-claro);
@@ -28,43 +39,29 @@
   /*margin: 30px 74px 20px 74px;*/
 }
 
-.nav {
-  .menubottom {
-    /*container de los enlaces*/
-    list-style: none;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 30px;
-
-    &__link {
-      color: var(--gris-oscuro);
-      opacity: 0.75;
-      font-size: 14px;
-      font-family: "Open Sans", sans-serif;
-      font-weight: bold;
-    }
-  }
+.footer__nav--menu {
+  /*container de los enlaces*/
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.logo {
-  &__adalab {
+.footer__nav--link {
+  color: var(--gris-oscuro);
+  opacity: 0.75;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.footer__adalab {
+  &--icon {
     display: block;
     height: 45px;
     margin-bottom: 45px;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .wrapper {
-    margin: 0px 45px;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .wrapper {
-    margin: 0px 138px;
   }
 }
