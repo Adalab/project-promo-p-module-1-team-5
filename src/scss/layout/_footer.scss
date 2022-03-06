@@ -79,21 +79,14 @@
 
   .footer__nav--menu {
     align-items: flex-end;
-    grid-column: 2/2;
-    grid-row: 1/1;
     margin-bottom: 0px;
   }
 
   .footer__copyright {
-    text-align: left;
-    grid-column: 1/1;
-    grid-row: 1/2;
     margin-top: 0px;
   }
 
   .footer__adalab--icon {
-    grid-column: 1/1;
-    grid-row: 1/2;
     margin-bottom: 0px;
   }
 }
