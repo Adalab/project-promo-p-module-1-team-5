@@ -7,7 +7,7 @@
 
   @media all and (min-width: 768px) {
     margin: 0px 45px;
-    padding-top: 24px;
+    padding-top: 30px;
     padding-bottom: 60px;
   }
   @media all and (min-width: 1200px) {
@@ -68,25 +68,23 @@
 }
 
 @media all and (min-width: 768px) {
+  /*falta espacios entre copyright y adalab, y entre los enlaces*/
   .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto; /*1fr 1fr*/
     grid-template-rows: auto auto;
     align-items: flex-start;
+    justify-content: space-between;
   }
 
   .footer__nav--menu {
-    background-color: greenyellow;
     align-items: flex-end;
     grid-column: 2/2;
     grid-row: 1/1;
     margin-bottom: 0px;
   }
-  .footer__nav--link {
-    line-height: 1, 45px;
-  }
+
   .footer__copyright {
-    background-color: pink;
     text-align: left;
     grid-column: 1/1;
     grid-row: 1/2;
@@ -94,8 +92,6 @@
   }
 
   .footer__adalab--icon {
-    margin-top: 0px;
-    background-color: rgb(223, 103, 73);
     grid-column: 1/1;
     grid-row: 1/2;
     margin-bottom: 0px;
