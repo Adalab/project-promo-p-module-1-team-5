@@ -1,15 +1,11 @@
 .container {
   position: relative;
   display: inline-block;
-  /* text-align: center; */
-}
-
-.container__img {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  /* width: 120%;
-      height: 100vh; */
+  &__img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
 }
 
 .motto {
@@ -25,19 +21,17 @@
   margin-top: -40px;
   padding: 10px;
   /* position: absolute; */
-}
-
-.motto__text {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 1.39;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-@media all and (min-width: 768px) {
-  .motto {
+  &__text {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.39;
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+  @media all and (min-width: 768px) {
     opacity: 75%;
   }
 }
+
 .teamcontainer {
   margin: 0, 15px;
 }
