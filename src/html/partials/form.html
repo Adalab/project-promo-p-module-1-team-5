@@ -1,37 +1,22 @@
 <div class="wrapper_contact">
-  <h1 class="title_contact">contacto</h1>
-  <p>
-    FRASE PARA QUE NOS CONTACTN, TIPO: SI QUIRES CONOCER A ESTAS 4 MUJERES QUE
-    HAN DECIDIDO REINVENTARSE, NO DUDES EN CONTACTAR!
-  </p>
-  <p class="required">todos los campos marcados con * son obligatorios.</p>
+  <div class="contact">
+    <h1 class="contact__title">contacto</h1>
+    <p class="contact__content">
+      Si queréis conocer a estas cuatro mujeres que han decidio reinventarse, ¡no dudes en contactar!
+    </p>
+    <small class="contact__required">Todos los campos marcados con * son obligatorios.</small>
+  </div>
+
   <form action="" method="">
     <!--Mirar el email que hay que poner en la guia del proyecto-->
     <label for="fullName" class="lable_name">nombre completo*</label>
-    <input
-      id="fullName"
-      type="text"
-      name="fullName"
-      placeholder="Nombre..."
-      required
-    />
+    <input id="fullName" type="text" name="fullName" placeholder="Nombre..." required />
     <label for="email" class="email">email*</label>
-    <input
-      id="email"
-      type="email"
-      name="email"
-      placeholder="nombre.apellidos@mail.com"
-      required
-    />
+    <input id="email" type="email" name="email" placeholder="nombre.apellidos@mail.com" required />
     <label for="phone" class="phone">teléfono</label>
     <input id="phone" type="tel" name="phone" placeholder="Ej:123456789" />
     <label for="message" class="message">mensaje*</label>
-    <textarea
-      id="message"
-      name="message"
-      width="auto"
-      height="105px"
-    ></textarea>
+    <textarea id="message" name="message" width="auto" height="105px"></textarea>
     <input class="submit" type="submit" value="enviar" />
   </form>
 </div>
