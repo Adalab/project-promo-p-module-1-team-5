@@ -28,3 +28,48 @@
     padding-top: 30px;
   }
 }
+.form__input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  &--box {
+    height: 45px;
+    border: 1px solid var(--gris-claro);
+  }
+  &--textareabox {
+    height: 105px;
+    border: 1px solid var(--gris-claro);
+  }
+}
+
+label {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  color: var(--gris-oscuro);
+}
+span {
+  color: var(--verde-claro);
+}
+::placeholder {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  color: var(--gris-claro);
+  padding-left: 15px;
+  padding-top: 11px;
+}
+.form__send {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.submit {
+  text-transform: uppercase;
+  width: 290px;
+  height: 45px;
+  padding: 0 15px;
+  background-color: var(--verde-oscuro);
+  border-radius: 4px;
+  color: white;
+  border: 0px;
+}
