@@ -15,7 +15,7 @@
   @media all and (min-width: 1200px) {
     margin: 0px 138px;
     padding-top: 30px;
-    padding-bottom: 51px;
+    padding-bottom: 51px; /*Estos padding no sé si están bien aquí o si se los tendría que dar a cada elemento*/
   }
 }
 
@@ -59,19 +59,16 @@
   text-transform: uppercase;
 }
 
-.footer__adalab {
-  &--icon {
-    display: block;
-    height: 45px;
-    margin-bottom: 45px;
-  }
+.footer__adalab--icon {
+  display: block;
+  height: 45px;
+  margin-bottom: 45px;
 }
 
 @media all and (min-width: 768px) {
-  /*falta espacios entre copyright y adalab, y entre los enlaces, márgenes de la caja se los he dado arriba*/
   .footer {
     display: grid;
-    grid-template-columns: auto auto; /*1fr 1fr*/
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     align-items: flex-start;
     justify-content: space-between;
@@ -80,7 +77,6 @@
   .footer__nav--menu {
     align-items: flex-end;
     margin-bottom: 0px;
-    line-height: 20px;
   }
 
   .footer__copyright {
