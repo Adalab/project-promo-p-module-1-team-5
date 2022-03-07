@@ -46,18 +46,20 @@ a:link {
   text-transform: uppercase;
 }
 
-.align__left {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  text-align: left;
-}
+@media all and (min-width: 768px) {
+  .align__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+  }
 
-.align__right {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  text-align: right;
+  .align__right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+  }
 }
 
 /* Bios */
