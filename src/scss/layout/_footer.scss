@@ -1,6 +1,6 @@
 /*FOOTER*/
 
-.gray_line {
+.grayline {
   border-top: solid 1px var(--gris-claro);
 }
 
@@ -80,6 +80,7 @@
   .footer__nav--menu {
     align-items: flex-end;
     margin-bottom: 0px;
+    line-height: 20px;
   }
 
   .footer__copyright {
