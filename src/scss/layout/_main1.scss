@@ -1,17 +1,23 @@
 .teamcontainer {
   margin: 0, 15px;
 }
+
 .team {
   padding: 30px 15px;
-}
-
-.team__title {
-  font-size: 24px;
-  line-height: 1.88;
-  font-family: "Rubik", sans-serif;
-  color: var(--verde-claro);
-  font-weight: bold;
-  text-align: center;
+  &__title {
+    font-size: 24px;
+    line-height: 1.88;
+    font-family: "Rubik", sans-serif;
+    color: var(--verde-claro);
+    font-weight: bold;
+    text-align: center;
+  }
+  @media all and (min-width: 768px) {
+    padding: 45px 45px 30px 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 45px 300px 60px 300px;
+  }
 }
 
 .team__title--article1,
@@ -33,70 +39,56 @@ article.dafo__article2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.squarecontainer__square {
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg);
-  background-color: var(--blanco);
-  position: absolute;
-  margin-top: -15px;
+  &__square {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: var(--blanco);
+    position: absolute;
+    margin-top: -15px;
+  }
 }
 
 .dafo {
   padding: 30px 15px;
   background-color: var(--gris-fondo);
-}
-.dafo__article2--strengths,
-.dafo__article3--weaknesses {
-  font-size: 22px;
-  font-family: "Rubik", sans-serif;
-  color: var(--verde-oscuro);
-  font-weight: bold;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-@media all and (min-width: 768px) {
-  .team {
-    padding: 45px 45px 30px 45px;
+  &__article2--strengths,
+  &__article3--weaknesses {
+    font-size: 22px;
+    font-family: "Rubik", sans-serif;
+    color: var(--verde-oscuro);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
-  .dafo {
+  @media all and (min-width: 768px) {
     padding: 45px 45px 60px 45px;
     display: flex;
+    &__article2 {
+      padding-right: 15px;
+    }
+    &__article3 {
+      padding-left: 15px;
+    }
+    &__article2,
+    &__article3 {
+      width: 50%;
+    }
   }
-
-  .dafo__article2,
-  .dafo__article3 {
-    width: 50%;
-  }
-
-  .dafo__article2 {
-    padding-right: 15px;
-  }
-  .dafo__article3 {
-    padding-left: 15px;
-  }
-}
-@media all and (min-width: 1200px) {
-  .team {
-    padding: 45px 300px 60px 300px;
-  }
-  .dafo {
+  @media all and (min-width: 1200px) {
     padding: 45px 138px 60px 138px;
     display: flex;
   }
 
-  .dafo__article2,
-  .dafo__article3 {
+  &__article2,
+  &__article3 {
     width: 50%;
   }
-  .dafo__article2 {
+  &__article2 {
     padding-right: 22.5px;
   }
-  .dafo__article3 {
+  &_article3 {
     padding-left: 22.5px;
   }
 }
