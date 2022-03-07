@@ -5,7 +5,7 @@
   text-align: center;
 }
 .name__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 1.88;
   font-weight: 500;
@@ -29,52 +29,11 @@
       padding: 50px; */
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: var(--blanco);
   margin-left: 10px;
   margin-right: 10px;
 }
 .list__item--link {
   color: var(--blanco);
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-  /* text-align: center; */
-}
-
-.container__img {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  /* width: 120%;
-      height: 100vh; */
-}
-
-.motto {
-  color: var(--black);
-  background-color: var(--blanco);
-  position: absolute;
-  /* display: inline-block; */
-  text-align: center;
-  /* border: solid fuchsia 1px; */
-  /* display: flex; */
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: -40px;
-  padding: 10px;
-  /* position: absolute; */
-}
-
-.motto__text {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 1.39;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-@media all and (min-width: 768px) {
-  .motto {
-    opacity: 75%;
-  }
 }
