@@ -1,125 +1,120 @@
 /* Estilos sección biografías. BEM aplicado */
 .bio {
   text-align: center;
-}
 
-.bio__photo {
-  width: 180px;
-  height: 180px;
-  /* margin: 0 55px 15px; */
-  border: solid 5px var(--gris-claro);
-  border-radius: 4px;
-}
+  &__photo {
+    width: 180px;
+    height: 180px;
+    /* margin: 0 55px 15px; */
+    border: solid 5px var(--gris-claro);
+    border-radius: 4px;
+  }
 
-.bio__name {
-  color: var(--black);
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
+  &__name {
+    color: var(--black);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 
-.bio__about {
-  color: var(--gris-oscuro);
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  margin: 15px 30px;
-}
+  &__about {
+    color: var(--gris-oscuro);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 15px 30px;
+  }
 
-.bio__social {
-  list-style-type: none;
-  margin: 35px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  &__social {
+    list-style-type: none;
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.bio__social--media {
-  list-style-type: none;
-  font-size: 20px;
-  color: var(--verde-oscuro);
-  padding: 0px 10px;
-  display: inline-block;
-}
+    &--media {
+      list-style-type: none;
+      font-size: 20px;
+      color: var(--verde-oscuro);
+      padding: 0px 10px;
+      display: inline-block;
+    }
 
-.bio__social--dot {
-  font-family: "Open Sans", sans-serif;
-  color: var(--gris-oscuro);
-  font-size: 16px;
-  display: inline-block;
-}
-.bio__social--link {
-  color: var(--verde-oscuro);
-  text-decoration: none;
-  font-family: "FontAwesome5BrandsRegular";
-}
+    &--dot {
+      font-family: "Open Sans", sans-serif;
+      color: var(--gris-oscuro);
+      font-size: 16px;
+      display: inline-block;
+    }
 
-/* Mediaqueries tablet */
+    &--link {
+      color: var(--verde-oscuro);
+      text-decoration: none;
+      font-family: "FontAwesome5BrandsRegular";
+    }
+  }
 
-@media all and (min-width: 768px) {
-  .bio {
+  /* Mediaqueries tablet */
+  @media all and (min-width: 768px) {
     display: flex;
     align-items: center;
     margin: 0px 44px 44px 44px;
     /* Márgenes alrededor del contenedor, menos por arriba que ya nos lo da el QUIÉNES SOMOS */
+
+    &__photo {
+      width: 205px;
+      height: 205px;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0px 10px;
+      /* Margen para separar los textos de las fotos, puede que quede mejor haciendo una variable izqda-dcha también... */
+    }
+
+    &__name,
+    &__about,
+    &__social {
+      margin: 5px 0px;
+      /* Que estén lo más pegados posible al borde de su contenedor y tengan un pequeño margen igual entre ellos */
+    }
+
+    &__about {
+      text-align: left;
+      /* Esta alineación es la correcta de lectura, igual en los bloques de un lado y del otro, no cambia */
+    }
   }
 
-  .bio__photo {
-    width: 205px;
-    height: 205px;
-  }
-
-  .bio__container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0px 10px;
-    /* Margen para separar los textos de las fotos, puede que quede mejor haciendo una variable izqda-dcha también... */
-  }
-
-  .bio__name,
-  .bio__about,
-  .bio__social {
-    margin: 5px 0px;
-    /* Que estén lo más pegados posible al borde de su contenedor y tengan un pequeño margen igual entre ellos */
-  }
-
-  .bio__about {
-    text-align: left;
-    /* Esta alineación es la correcta de lectura, igual en los bloques de un lado y del otro, no cambia */
-  }
-}
-
-/* Mediaqueries desktop */
-
-@media all and (min-width: 1200px) {
-  .bio {
+  /* Mediaqueries desktop */
+  @media all and (min-width: 1200px) {
     display: flex;
     margin: 0px 138px 69px 138px;
     /* Márgenes alrededor del contenedor, menos por arriba que ya nos lo da el QUIÉNES SOMOS, y por abajo la mitad para no separarlos demasiado */
-  }
 
-  .bio__photo {
-    width: 278px;
-    height: 278px;
-  }
+    &__photo {
+      width: 278px;
+      height: 278px;
+    }
 
-  .bio__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 0px 10px;
-  }
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin: 0px 10px;
+    }
 
-  .bio__name,
-  .bio__about,
-  .bio__social {
-    margin: 0;
-    /* Que estén lo más pegados posible al borde de su contenedor */
-  }
+    &__name,
+    &__about,
+    &__social {
+      margin: 0;
+      /* Que estén lo más pegados posible al borde de su contenedor */
+    }
 
-  .bio__about {
-    text-align: left;
-    /* Esta alineación es la correcta de lectura, igual en los bloques de un lado y del otro, no cambia */
+    &__about {
+      text-align: left;
+      /* Esta alineación es la correcta de lectura, igual en los bloques de un lado y del otro, no cambia */
+    }
   }
 }

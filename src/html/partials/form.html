@@ -27,26 +27,31 @@
           required
         />
       </div>
-      <div class="form__input">
-        <label for="email" class="email">Email<span>*</span></label>
-        <input
-          class="form__input--box"
-          id="email"
-          type="email"
-          name="email"
-          placeholder="nombre.apellidos@mail.com"
-          required
-        />
-      </div>
-      <div class="form__input">
-        <label for="phone" class="phone">Teléfono</label>
-        <input
-          class="form__input--box"
-          id="phone"
-          type="tel"
-          name="phone"
-          placeholder="Ej:123456789"
-        />
+      <div class="desktopversion">
+        <!--Necesito un div nuevo pra la versión ordenador, que agrupe solo email y tlf-->
+        <div class="form__input">
+          <label for="email" class="email">Email<span>*</span></label
+          ><!--clase nueva para cambiar tamaño caja, desktop version-->
+          <input
+            class="form__input--box emaildesktop"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="nombre.apellidos@mail.com"
+            required
+          />
+        </div>
+        <div class="form__input">
+          <label for="phone" class="phone">Teléfono</label>
+          <!--clase nueva para cambiar tamaño caja, desktop version-->
+          <input
+            class="form__input--box phonedesktop"
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="Ej:123456789"
+          />
+        </div>
       </div>
       <div class="form__input">
         <label for="message" class="message">Mensaje<span>*</span></label>
