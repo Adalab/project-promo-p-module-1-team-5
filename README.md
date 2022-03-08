@@ -4,7 +4,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quis ab expedita 
 
 ## Integrantes
 
-[![Autor](https://img.shields.io/badge/Alicia%20Padr%C3%B3n-ff69b4?style=flat&logo=github)](https://github.com/aliciaapadron)
+[![Autor](https://img.shields.io/badge/-Alicia%20Padr%C3%B3n%20Pasqu%C3%ADn-ff69b4?style=flat&logo=github)](https://github.com/aliciaapadron)
 
 [![Autor](https://img.shields.io/badge/Clara%20Miranda%20Zapata-blueviolet?style=flat&logo=github)](https://github.com/miranda-zapata)
 
