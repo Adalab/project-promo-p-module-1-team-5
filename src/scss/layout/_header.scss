@@ -39,9 +39,12 @@
 }
 @media all and (min-width: 768px) {
   .cont_header {
-    display: flex;
     background-color: var(--verde-oscuro);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
   }
+
   .menutop {
     background-color: var(--verde-oscuro);
   }
