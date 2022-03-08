@@ -5,7 +5,7 @@
   text-align: center;
 }
 .name__title {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   line-height: 1.88;
   font-weight: 500;
@@ -29,11 +29,20 @@
       padding: 50px; */
   font-size: 15px;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--blanco);
   margin-left: 10px;
   margin-right: 10px;
 }
 .list__item--link {
   color: var(--blanco);
+}
+@media all and (min-width: 768px) {
+  .cont_header {
+    display: flex;
+    background-color: var(--verde-oscuro);
+  }
+  .menutop {
+    background-color: var(--verde-oscuro);
+  }
 }
