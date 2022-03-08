@@ -21,23 +21,30 @@
 <body class="contactpage">
   <!--HEADER-->
   <header>
-    <div class="name">
-      <h1 class="name__title">PROJECT #L0V3LACE</h1>
+    <div class="cont_header">
+      <div class="name">
+        <h1 class="name__title">PROJECT #L0V3LACE</h1>
+      </div>
+      <nav class="menutop">
+        <ul class="list">
+          <li class="list__item">
+            <a class="list__item--link" href="./index.html#team">EQUIPO</a>
+          </li>
+          <li class="list__item">
+            <a class="list__item--link" href="./index.html#seccion-quienes-somos"
+              >QUIÉNES SOMOS</a
+            >
+          </li>
+          <li class="list__item">
+            <a class="list__item--link" href="./contact.html" target="_blank"
+              >CONTACTO</a
+            >
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="menutop">
-      <ul class="list">
-        <li class="list__item">
-          <a class="list__item--link" href="./index.html#team">EQUIPO</a>
-        </li>
-        <li class="list__item">
-          <a class="list__item--link" href="./index.html#seccion-quienes-somos">QUIÉNES SOMOS</a>
-        </li>
-        <li class="list__item">
-          <a class="list__item--link" href="./contact.html" target="_blank">CONTACTO</a>
-        </li>
-      </ul>
-    </nav>
   </header>
+
   <!--MAIN-->
   <div class="container">
     <img class="container__img" src="./assets/images/fotocontacto.jpg" alt="imagen de contacto" />
@@ -49,58 +56,35 @@
         Si queréis conocer a estas cuatro mujeres que han decidido reinventarse,
         ¡no dudes en contactar!
       </p>
-      <small class="contact__required"
-        >Todos los campos marcados con <span><span>*</span></span> son
-        obligatorios.</small
-      >
+      <small class="contact__required">Todos los campos marcados con <span><span>*</span></span> son
+        obligatorios.</small>
     </div>
 
     <div class="form">
-      <form action="" method="">
+      <form action="https://formspree.io/l0v3laceadalab@gmail.com" method="POST">
         <!--Mirar el email que hay que poner en la guia del proyecto-->
         <div class="form__input">
-          <label for="fullName" class="lable_name"
-            >Nombre completo<span>*</span></label
-          >
-          <input
-            class="form__input--box"
-            id="fullName"
-            type="text"
-            name="fullName"
-            placeholder="Nombre..."
-            required
-          />
+          <label for="fullName" class="lable_name">Nombre completo<span>*</span></label>
+          <input class="form__input--box" id="fullName" type="text" name="fullName" placeholder="Nombre..." required />
         </div>
-        <div class="form__input">
-          <label for="email" class="email">Email<span>*</span></label>
-          <input
-            class="form__input--box"
-            id="email"
-            type="email"
-            name="email"
-            placeholder="nombre.apellidos@mail.com"
-            required
-          />
-        </div>
-        <div class="form__input">
-          <label for="phone" class="phone">Teléfono</label>
-          <input
-            class="form__input--box"
-            id="phone"
-            type="tel"
-            name="phone"
-            placeholder="Ej:123456789"
-          />
+        <div class="desktopversion">
+          <!--Necesito un div nuevo pra la versión ordenador, que agrupe solo email y tlf-->
+          <div class="form__input">
+            <label for="email" class="email">Email<span>*</span></label>
+            <!--clase nueva para cambiar tamaño caja, desktop version-->
+            <input class="form__input--box emaildesktop" id="email" type="email" name="email"
+              placeholder="nombre.apellidos@mail.com" required />
+          </div>
+          <div class="form__input">
+            <label for="phone" class="phone">Teléfono</label>
+            <!--clase nueva para cambiar tamaño caja, desktop version-->
+            <input class="form__input--box phonedesktop" id="phone" type="tel" name="phone" placeholder="Ej:123456789" />
+          </div>
         </div>
         <div class="form__input">
           <label for="message" class="message">Mensaje<span>*</span></label>
-          <textarea
-            class="form__input--textareabox"
-            id="message"
-            name="message"
-            placeholder="¿Qué necesitas?"
-            required
-          ></textarea>
+          <textarea class="form__input--textareabox" id="message" name="message" placeholder="¿Qué necesitas?"
+            required></textarea>
         </div>
         <div class="form__send">
           <input class="submit" type="submit" value="enviar" />
@@ -108,7 +92,6 @@
       </form>
     </div>
   </div>
-
 
   <!--FOOTER-->
   <footer class="grayline">
