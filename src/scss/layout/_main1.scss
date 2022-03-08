@@ -111,11 +111,11 @@ article.dafo__article2 {
   @media all and (min-width: 1200px) {
     padding: 45px 138px 60px 138px;
     display: flex;
-  }
-  &__article2 {
-    padding-right: 22.5px;
-  }
-  &_article3 {
-    padding-left: 22.5px;
+    &__article2 {
+      padding-right: 22.5px;
+    }
+    &_article3 {
+      padding-left: 22.5px;
+    }
   }
 }
