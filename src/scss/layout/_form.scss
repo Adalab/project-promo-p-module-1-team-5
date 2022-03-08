@@ -1,4 +1,4 @@
-/*.wrapper_contact {
+.wrapper_contact {
   margin: 0px 15px;
 
   @media all and (min-width: 768px) {
@@ -7,16 +7,17 @@
   @media all and (min-width: 1200px) {
     margin: 0px 300px;
   }
-}*/
+}
 
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 30px 15px 58px 15px; /*habría que quitar todo esto*/
-  /*padding-top:30px; >> DEJAR ESTO
-  padding-bottom:58px*/
+  /*padding: 30px 15px 58px 15px; */ /*márgenes antiguos*/
+  padding-top: 30px;
+  padding-bottom: 58px;
+
   &__title {
     text-transform: uppercase;
     padding-bottom: 15px;
@@ -25,6 +26,7 @@
     font-family: "Rubik", sans-serif;
     color: var(--verde-oscuro);
   }
+
   &__content {
     font-size: 16px;
     line-height: 1.5;
@@ -41,14 +43,16 @@
 .form__input {
   display: flex;
   flex-direction: column;
-  padding: 10px 15px; /*quitar 15px*/
-  /*padding-top:10px;
-  padding-bottom:10px*/
+  /*He quitado padding: 10px 15px*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   &--box {
     height: 45px;
     border: 1px solid var(--gris-claro);
     margin-top: 7px;
   }
+
   &--textareabox {
     height: 105px;
     border: 1px solid var(--gris-claro);
@@ -95,5 +99,19 @@ span {
   }
   @media all and (min-width: 1200px) {
     width: 278px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .desktopversion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .emaildesktop {
+    width: 395px;
+  }
+  .phonedesktop {
+    width: 162px;
   }
 }
