@@ -1,7 +1,14 @@
-// .wrapper_contact {
-//   margin: 0px 15px;
+/*.wrapper_contact {
+  margin: 0px 15px;
 
-// }
+  @media all and (min-width: 768px) {
+    margin: 0px 163px;
+  }
+  @media all and (min-width: 1200px) {
+    margin: 0px 300px;
+  }
+}
+*/
 .contact {
   display: flex;
   flex-direction: column;
@@ -22,6 +29,7 @@
     font-family: "Open Sans Condensed", sans-serif;
     color: var(--gris-oscuro);
   }
+
   &__required {
     font-family: "Open Sans Condensed", sans-serif;
     color: var(--gris-oscuro);
@@ -72,4 +80,11 @@ span {
   border-radius: 4px;
   color: white;
   border: 0px;
+
+  @media all and (min-width: 768px) {
+    width: 206px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 278px;
+  }
 }
