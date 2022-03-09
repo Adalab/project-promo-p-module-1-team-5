@@ -5,17 +5,17 @@
   text-align: center;
 }
 .name__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 1.88;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .menutop {
   background-color: var(--verde-claro);
-  margin: 0;
-  padding: 15px;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -26,17 +26,19 @@
   list-style: none;
   display: inline;
   /* margin: 100px;
-      padding: 50px; */
+  padding: 50px; */
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: var(--blanco);
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
 }
 .list__item--link {
   color: var(--blanco);
 }
+
 @media all and (min-width: 768px) {
   .cont_header {
     background-color: var(--verde-oscuro);

@@ -108,8 +108,8 @@
     &__name,
     &__about,
     &__social {
-      margin: 0;
-      /* Que estén lo más pegados posible al borde de su contenedor */
+      margin: 10px 0;
+      /* Que estén lo más pegados posible a los bordes laterales de su contenedor pero haya una separación buena entre ellos (arriba y abajo) */
     }
 
     &__about {
