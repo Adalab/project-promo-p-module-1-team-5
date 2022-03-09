@@ -55,3 +55,6 @@ public
 
 # vscode
 .vscode
+
+# Carpeta de nuestros recursos
+.documents
