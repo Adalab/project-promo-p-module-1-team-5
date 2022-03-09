@@ -3,13 +3,14 @@
   padding: 20px;
   color: var(--blanco);
   text-align: center;
-}
-.name__title {
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  line-height: 1.88;
-  font-weight: 500;
-  text-transform: uppercase;
+
+  &__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
 }
 
 .menutop {
@@ -21,23 +22,22 @@
 
 .list {
   display: inline;
-}
-
-.list__item {
-  list-style: none;
-  display: inline;
-  /* margin: 100px;
+  &__item {
+    list-style: none;
+    display: inline;
+    /* margin: 100px;
   padding: 50px; */
-  font-size: 15px;
-  font-weight: 500;
-  font-family: "Rubik", sans-serif;
-  color: var(--blanco);
-  padding-left: 10px;
-  padding-right: 10px;
-  text-transform: uppercase;
-}
-.list__item--link {
-  color: var(--blanco);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    color: var(--blanco);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+  }
+  .list__item--link {
+    color: var(--blanco);
+  }
 }
 
 @media all and (min-width: 768px) {
