@@ -16,6 +16,7 @@
   background-color: var(--verde-claro);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .list {
@@ -49,5 +50,6 @@
 
   .menutop {
     background-color: var(--verde-oscuro);
+    justify-content: none;
   }
 }
