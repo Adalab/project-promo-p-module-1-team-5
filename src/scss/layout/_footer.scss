@@ -67,6 +67,12 @@
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 2px solid;
+      border-color: --gris-oscuro;
+    }
   }
 
   &__adalab {
