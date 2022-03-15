@@ -66,6 +66,10 @@
   &__adalab {
     height: 45px;
     margin-bottom: 45px;
+    transition: all 1.5s ease-in-out;
+    &:hover {
+      transform: rotateX(180deg);
+    }
   }
   @media all and (min-width: 768px) {
     &__nav {
@@ -79,4 +83,11 @@
       grid-row: 2 / 3;
     }
   }
+}
+
+.footer__adalab {
+  transition: all 1.5s ease-in-out;
+}
+.footer__adalab:hover {
+  transform: rotateX(180deg);
 }
