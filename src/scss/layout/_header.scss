@@ -1,29 +1,26 @@
 .name {
   background-color: $color;
   padding: 20px;
-  color: var(--blanco);
+  color: $color-white;
   text-align: center;
-
+  width: 100vw;
   &__title {
-    font-family: "Rubik", sans-serif;
     font-size: 16px;
     line-height: 1.88;
     font-weight: 500;
     text-transform: uppercase;
   }
 }
-
 .menutop {
-  background-color: var(--verde-claro);
+  background-color: $color-ligth;
   display: flex;
   align-items: center;
   justify-content: center;
   @media all and (min-width: 768px) {
-    background-color: var(--verde-oscuro);
+    background-color: $color;
     justify-content: none;
   }
 }
-
 .list {
   display: inline;
   &__item {
@@ -33,20 +30,18 @@
   padding: 50px; */
     font-size: 15px;
     font-weight: 500;
-    font-family: "Rubik", sans-serif;
-    color: var(--blanco);
+    color: $color;
     padding-left: 10px;
     padding-right: 10px;
     text-transform: uppercase;
   }
   .list__item--link {
-    color: var(--blanco);
+    color: $color;
   }
 }
-
 @media all and (min-width: 768px) {
   .cont_header {
-    background-color: var(--verde-oscuro);
+    background-color: $color;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
