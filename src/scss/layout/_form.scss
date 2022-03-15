@@ -37,8 +37,7 @@
 .form__input {
   display: flex;
   flex-direction: column;
-  // padding-top: 10px;
-  // padding-bottom: 10px;
+  border: none;
 
   &--box {
     height: 45px;
@@ -89,6 +88,7 @@ span {
   justify-content: center;
   padding-top: 15px;
   padding-bottom: 60px;
+  border: none;
   @media all and (min-width: 768px) {
     justify-content: right;
   }
@@ -124,10 +124,3 @@ span {
     width: 162px;
   }
 }
-
-// input:-webkit-autofill,
-// input:-webkit-autofill:hover,
-// input:-webkit-autofill:focus,
-// input:-webkit-autofill:active {
-//   -webkit-box-shadow: 0 0 0 30px rgb(242, 231, 233) inset !important;
-// }
