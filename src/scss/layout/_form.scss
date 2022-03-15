@@ -8,6 +8,7 @@
     margin: 0px 300px;
   }
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -32,11 +33,13 @@
     padding-top: 30px;
   }
 }
+
 .form__input {
   display: flex;
   flex-direction: column;
   // padding-top: 10px;
   // padding-bottom: 10px;
+
   &--box {
     height: 45px;
     border: 1px solid $color;
@@ -50,6 +53,7 @@
       -webkit-box-shadow: 0 0 0 30px rgb(242, 231, 233) inset !important;
     }
   }
+
   &--textareabox {
     height: 105px;
     border: 1px solid $color;
@@ -65,17 +69,21 @@
     }
   }
 }
+
 label {
   font-size: 14px;
   color: $color-darkgrey;
 }
+
 span {
   color: $color-ligth;
 }
+
 ::placeholder {
   font-size: 14px;
   color: $color-ligth;
 }
+
 .form__send {
   display: flex;
   justify-content: center;
@@ -85,6 +93,7 @@ span {
     justify-content: right;
   }
 }
+
 .submit {
   text-transform: uppercase;
   width: 290px;
@@ -101,6 +110,7 @@ span {
     width: 278px;
   }
 }
+
 @media all and (min-width: 1200px) {
   .desktopversion {
     display: flex;
