@@ -7,42 +7,34 @@
     width: 100vw;
   }
 }
-
 .motto {
-  color: var(--black);
-  background-color: var(--blanco);
+  color: $color-black;
+  background-color: $color-white;
   position: absolute;
-  /* display: inline-block; */
   text-align: center;
-  /* border: solid fuchsia 1px; */
-  /* display: flex; */
   margin-left: 20px;
   margin-right: 20px;
   margin-top: -40px;
   padding: 10px;
-  /* position: absolute; */
   &__text {
     font-size: 15px;
     font-weight: bold;
     line-height: 1.39;
-    font-family: "Open Sans Condensed", sans-serif;
   }
   @media all and (min-width: 768px) {
+    color: $color-black;
     opacity: 75%;
   }
 }
-
 .teamcontainer {
   margin: 0, 15px;
 }
-
 .team {
   padding: 30px 15px;
   &__title {
     font-size: 24px;
     line-height: 1.88;
-    font-family: "Rubik", sans-serif;
-    color: var(--verde-claro);
+    color: $color;
     font-weight: bold;
     text-align: center;
   }
@@ -59,8 +51,7 @@
 .dafo__article3 {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
-  color: var(--gris-oscuro);
+  color: $color-darkgrey;
   text-align: center;
   margin: 15px;
   position: relative;
@@ -68,7 +59,6 @@
 article.dafo__article2 {
   margin-bottom: 35px;
 }
-
 .squarecontainer {
   display: flex;
   flex-wrap: wrap;
@@ -77,20 +67,18 @@ article.dafo__article2 {
     width: 30px;
     height: 30px;
     transform: rotate(45deg);
-    background-color: var(--blanco);
+    background-color: $color-white;
     position: absolute;
     margin-top: -15px;
   }
 }
-
 .dafo {
   padding: 30px 15px;
-  background-color: var(--gris-fondo);
+  background-color: $color-ligthgrey;
   &__article2--strengths,
   &__article3--weaknesses {
     font-size: 22px;
-    font-family: "Rubik", sans-serif;
-    color: var(--verde-oscuro);
+    color: $color;
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
