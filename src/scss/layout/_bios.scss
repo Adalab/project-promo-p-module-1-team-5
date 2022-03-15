@@ -5,19 +5,17 @@
     width: 180px;
     height: 180px;
     /* margin: 0 55px 15px; */
-    border: solid 3px $color-pink;
+    border: solid 3px $color;
     border-radius: 15px;
   }
   &__name {
-    color: $color-black;
-    font-family: $font-family;
+    color: $color-ligth;
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
   }
   &__about {
     color: $color-darkgrey;
-    font-family: $font-family;
     font-size: 16px;
     margin: 15px 30px;
   }
@@ -30,7 +28,7 @@
     &--media {
       list-style-type: none;
       font-size: 20px;
-      color: $color-pink;
+      color: $color;
       padding: 0px 10px;
       display: inline-block;
       transition: transform 0.6 1s;
@@ -40,15 +38,13 @@
       }
     }
     &--dot {
-      font-family: $font-family;
       color: $color-darkgrey;
       font-size: 16px;
       display: inline-block;
     }
     &--link {
-      color: $color-pink;
+      color: $color;
       text-decoration: none;
-      font-family: "FontAwesome5BrandsRegular";
     }
   }
 
