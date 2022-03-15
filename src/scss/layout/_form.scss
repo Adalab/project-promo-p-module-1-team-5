@@ -8,72 +8,71 @@
     margin: 0px 300px;
   }
 }
-
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  /*padding: 30px 15px 58px 15px; */ /*márgenes antiguos*/
   padding-top: 30px;
   padding-bottom: 58px;
-
   &__title {
     text-transform: uppercase;
     padding-bottom: 15px;
     font-size: 24px;
     line-height: 1.88;
-    font-family: "Rubik", sans-serif;
-    color: var(--verde-oscuro);
+    color: $color;
   }
-
   &__content {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Open Sans Condensed", sans-serif;
-    color: var(--gris-oscuro);
+    color: $color-darkgrey;
   }
-
   &__required {
-    font-family: "Open Sans Condensed", sans-serif;
-    color: var(--gris-oscuro);
+    color: $color-darkgrey;
     padding-top: 30px;
   }
 }
 .form__input {
   display: flex;
   flex-direction: column;
-  /*He quitado padding: 10px 15px*/
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+  // padding-top: 10px;
+  // padding-bottom: 10px;
   &--box {
     height: 45px;
-    border: 1px solid var(--gris-claro);
+    border: 1px solid $color;
     margin-top: 7px;
+    padding-left: 10px;
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px rgb(242, 231, 233) inset !important;
+    }
   }
-
   &--textareabox {
     height: 105px;
-    border: 1px solid var(--gris-claro);
+    border: 1px solid $color;
     margin-top: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px rgb(242, 231, 233) inset !important;
+    }
   }
 }
-
 label {
-  font-family: "Open Sans Condensed", sans-serif;
   font-size: 14px;
-  color: var(--gris-oscuro);
+  color: $color-darkgrey;
 }
 span {
-  color: var(--verde-claro);
+  color: $color-ligth;
 }
 ::placeholder {
-  font-family: "Open Sans Condensed", sans-serif;
   font-size: 14px;
-  color: var(--gris-claro);
-  padding-left: 15px;
-  padding-top: 11px;
+  color: $color-ligth;
 }
 .form__send {
   display: flex;
@@ -89,11 +88,10 @@ span {
   width: 290px;
   height: 45px;
   padding: 0 15px;
-  background-color: var(--verde-oscuro);
+  background-color: $color;
   border-radius: 4px;
-  color: white;
+  color: $color-white;
   border: 0px;
-
   @media all and (min-width: 768px) {
     width: 206px;
   }
@@ -101,7 +99,6 @@ span {
     width: 278px;
   }
 }
-
 @media all and (min-width: 1200px) {
   .desktopversion {
     display: flex;
@@ -115,3 +112,10 @@ span {
     width: 162px;
   }
 }
+
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   -webkit-box-shadow: 0 0 0 30px rgb(242, 231, 233) inset !important;
+// }
