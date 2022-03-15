@@ -1,8 +1,10 @@
 @import "./core/variables";
 @import "layout/header";
+@import "layout/hero";
 @import "layout/main1";
 @import "layout/bios";
 @import "layout/footer";
+
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +12,17 @@
   font-family: $font-family;
 }
 /* He tenido que poner este reset porque el DevTools me marcaba un padding extraño en el ul que no lograba encontrar en la hoja de reset */
+
 a:link {
   text-decoration: none;
   /* a: link: al poner esto todos los enlaces dejan de tener la linea de subrayado, a:visited no cambia el color del enlace al pulsarlo */
 }
+
 /* Header */
+
 /* Main1 */
-/* Main2*/
+
+/* Main2 */
 .who {
   background-color: $color-white;
   text-align: center;
@@ -31,6 +37,7 @@ a:link {
     text-transform: uppercase;
   }
 }
+
 @media all and (min-width: 768px) {
   .align__left {
     display: flex;
@@ -45,5 +52,7 @@ a:link {
     text-align: right;
   }
 }
+
 /* Bios */
+
 /*Footer*/
