@@ -1,7 +1,7 @@
 /*FOOTER*/
 .grayline {
   /*linea gris, necesita su propio div*/
-  border-top: solid 1px $color-line;
+  border-top: solid 1px $color-ruddypink;
 }
 .wrapper {
   /*columna central, márgenes laterales*/
@@ -30,7 +30,7 @@
   }
   &__copyright {
     font-size: 14px;
-    color: $color;
+    color: $color-bazaar;
     margin-top: 30px;
     margin-bottom: 20px;
     @media all and (min-width: 768px) {

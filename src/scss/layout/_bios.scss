@@ -4,11 +4,11 @@
     width: 180px;
     height: 180px;
     /* margin: 0 55px 15px; */
-    border: solid 3px $color-line;
+    border: solid 3px $color-ruddypink;
     border-radius: 15px;
   }
   &__name {
-    color: $color-ligth;
+    color: $color-bazaar;
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -27,7 +27,7 @@
     &--media {
       list-style-type: none;
       font-size: 20px;
-      color: $color;
+      color: $color-silverpink;
       padding: 0px 10px;
       display: inline-block;
       transition: transform 0.6 1s;
@@ -41,7 +41,7 @@
       display: inline-block;
     }
     &--link {
-      color: $color;
+      color: $color-ruddypink;
       text-decoration: none;
     }
   }
