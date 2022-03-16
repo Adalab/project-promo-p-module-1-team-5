@@ -37,7 +37,7 @@ Puedes ver el resultado haciendo clic <a href="http://beta.adalab.es/project-pro
 [![Autor](https://img.shields.io/badge/Ver%C3%B3nica%20Isla%20G%C2%AA%20de%20Leaniz-blue?style=flat&logo=github)](https://github.com/veroisla)
 
 <p align="justify">
-¡Muchas gracias por dedicar un ratito a leer sobre nosotras! Nos encantaría seguir en contacto contigo, así que no dudes en enviarnos un mensajito o de seguirnos en GitHub.
+¡Muchas gracias por dedicar un ratito a leer sobre nosotras! Nos encantaría seguir en contacto contigo, así que no dudes en enviarnos un mensajito o seguirnos en GitHub.
 </p>
 
 <p align="justify">
