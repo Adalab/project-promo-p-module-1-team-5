@@ -1,5 +1,5 @@
 <h1 align="center">¡Hola! Somos Project #L0V3lace</h1>
-<h2 align="center">Y este es nuestro proyecto común del módulo 1 aquí en <a href="https://adalab.es/">Adalab</a></h2>
+<h2 align="center">Y este es nuestro proyecto común del módulo 1 aquí en <a href="https://adalab.es/" target="_blank">Adalab</a></h2>
 
 ### Un poco sobre nosotras y el ejercicio
 
@@ -37,7 +37,7 @@ Puedes ver el resultado haciendo clic <a href="http://beta.adalab.es/project-pro
 [![Autor](https://img.shields.io/badge/Ver%C3%B3nica%20Isla%20G%C2%AA%20de%20Leaniz-blue?style=flat&logo=github)](https://github.com/veroisla)
 
 <p align="justify">
-¡Muchas gracias por dedicarle un ratito a leer sobre nosotras! Nos encantaría seguir en contacto contigo, así que no dudes en enviarnos un mensajito o de seguirnos en GitHub.
+¡Muchas gracias por dedicar un ratito a leer sobre nosotras! Nos encantaría seguir en contacto contigo, así que no dudes en enviarnos un mensajito o de seguirnos en GitHub.
 </p>
 
 <p align="justify">
