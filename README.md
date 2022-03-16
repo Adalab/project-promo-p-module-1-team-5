@@ -1,5 +1,5 @@
 <h1 align="center">¡Hola! Somos Project #L0V3lace</h1>
-<h3 align="center">Y este es nuestro proyecto común del módulo 1 aquí en <a href="https://adalab.es/">Adalab</a></h3>
+<h2 align="center">Y este es nuestro proyecto común del módulo 1 aquí en <a href="https://adalab.es/">Adalab</a></h2>
 
 ### Un poco sobre nosotras y el ejercicio
 
