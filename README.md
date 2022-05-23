@@ -1,6 +1,8 @@
 <h1 align="center">¡Hola! Somos Project #L0V3lace</h1>
 <h2 align="center">Y este es nuestro proyecto común del módulo 1 aquí en <a href="https://adalab.es/" target="_blank">Adalab</a></h2>
-### Un poco sobre nosotras y el ejercicio
+
+## Un poco sobre nosotras y el ejercicio
+
 <p align="justify">
 Aunque por nuestras biografías lo pueda parecer, no somos exitosas mujeres de negocios en Nueva York que han dado un giro a sus vidas... <b>O quizá sí:</b> la verdad es que queremos encontrar en el desarrollo web una profesión que nos encante y nos llene, y al venir de unas áreas profesionales tan diferentes, desde luego pretendemos dar un giro a nuestras carreras.
 </p>
@@ -12,17 +14,24 @@ En este ejercicio hemos puesto en práctica todo lo aprendido durante las primer
 Con sus retos y dificultades superadas, queremos dejar reflejada la satisfacción que supone conseguir un buen resultado (que por supuesto es mejorable), del cual hemos aprendido y siempre podemos seguir puliendo. Hemos sido capaces, en todo momento, de comunicarnos de una manera fluida y constructiva, aportando nuestra opinión y sin decepcionarnos las unas con las otras.<br/>
 Puedes ver el resultado haciendo clic <a href="http://beta.adalab.es/project-promo-p-module-1-team-5/" target="_blank">aquí</a> o arriba, en el enlace de la sección <i>About</i>.
 </p>
-### Herramientas que hemos utilizado
+
+## Herramientas que hemos utilizado
+
 <p align="left">
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
 <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> 
 <a href="https://gulpjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> </a>
 </p>
-### Integrantes del equipo
+
+## Integrantes del equipo
+
 [![Autor](https://img.shields.io/badge/-Alicia%20Padr%C3%B3n%20Pasqu%C3%ADn-ff69b4?style=flat&logo=github)](https://github.com/aliciaapadron)
+
 [![Autor](https://img.shields.io/badge/Clara%20Miranda%20Zapata-blueviolet?style=flat&logo=github)](https://github.com/miranda-zapata)
+
 [![Autor](https://img.shields.io/badge/Rocio%20Del%20Villar%20Nolazco-brightgreen?style=flat&logo=github)](https://github.com/RocioDvn)
+
 [![Autor](https://img.shields.io/badge/Ver%C3%B3nica%20Isla%20G%C2%AA%20de%20Leaniz-blue?style=flat&logo=github)](https://github.com/veroisla)
 
 <p align="justify">
@@ -30,8 +39,11 @@ Puedes ver el resultado haciendo clic <a href="http://beta.adalab.es/project-pro
 </p>
 
 <p align="justify">
+  
 ¡Un saludo!
+  
 </p>
+
 ```
 Project #L0V3lace | 2022
 ```
