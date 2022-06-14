@@ -28,7 +28,7 @@ Puedes ver el resultado haciendo clic <a href="http://beta.adalab.es/project-pro
 
 [![Autor](https://img.shields.io/badge/-Alicia%20Padr%C3%B3n%20Pasqu%C3%ADn-ff69b4?style=flat&logo=github)](https://github.com/aliciaapadron)
 
-[![Autor](https://img.shields.io/badge/Clara%20Miranda%20Zapata-blueviolet?style=flat&logo=github)](https://github.com/miranda-zapata)
+[![Autor](https://img.shields.io/badge/Clara%20Miranda%20Zapata-blueviolet?style=flat&logo=github)](https://github.com/claraMirandaZ)
 
 [![Autor](https://img.shields.io/badge/Rocio%20Del%20Villar%20Nolazco-brightgreen?style=flat&logo=github)](https://github.com/RocioDvn)
 
